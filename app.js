@@ -2,7 +2,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 
 
-mongoose.connect('mongodb+srv://admin:VOndCM7Yxz6570Nk@cluster0.w2kbq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://admin:pass@cluster0.w2kbq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
   { useNewUrlParser: true,
     useUnifiedTopology: true })
   .then(() => console.log('Connexion à MongoDB réussie !'))
